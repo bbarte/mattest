@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mattest</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <span>
+            Poziom trudności:
+            <select name="level" id="level" value="100">
+                <option value="100">Od 1 do 100</option>
+                <option value="200">Od 1 do 200</option>
+                <option value="500">Od 1 do 500</option>
+                <option value="1000">Od 1 do 1000</option>
+            </select>
+        </span>
+        <br>
+        <span style="margin-top: 5px; display: block;">
+            Rodzaj działań:
+            <select name="rodzaj" id="rodzaj" value="1">
+                <option value="1">Dodawanie i odejmowanie</option>
+                <option value="3">Dodawanie, odejmowanie i mnożenie</option>
+            </select>
+        </span>
+
+        <div id="problem">
+            
+        </div>
+        <input type="text" name="answer" id="answer" autocomplete="off">
+        <!-- <input type="submit" value="OK" id="submit" onclick="alert('asd')"> -->
+    </div>
+</body>
+</html>
